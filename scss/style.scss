@@ -25,6 +25,20 @@ a {
 }
 
 .hero {
+  @include set-bg($primary-color);
+  height: auto;
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  img {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: xx-large;
+    }
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?
